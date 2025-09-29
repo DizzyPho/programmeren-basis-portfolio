@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Hoeveel is je jaarinkomen in euro? ");
+            int inkomen = int.Parse(Console.ReadLine());
+
+            Console.Write("Hoeveel kinderen zijn er in je gezin?");
+            int aantalKinderen = int.Parse(Console.ReadLine());
         }
     }
 }
