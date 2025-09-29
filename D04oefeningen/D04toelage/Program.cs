@@ -9,7 +9,7 @@
             Console.Write("Hoeveel is je jaarinkomen in euro? ");
             int inkomen = int.Parse(Console.ReadLine());
 
-            Console.Write("Hoeveel kinderen zijn er in je gezin?");
+            Console.Write("Hoeveel kinderen zijn er in je gezin? ");
             int aantalKinderen = int.Parse(Console.ReadLine());
 
             if (inkomen <= 20000 && aantalKinderen > 2)
