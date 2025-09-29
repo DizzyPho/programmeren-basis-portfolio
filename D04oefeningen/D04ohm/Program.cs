@@ -14,10 +14,30 @@
             switch (optie)
             {
                 case "spanning":
+                    Console.Write("Geef de stroomsterkte: ");
+                    I = double.Parse(Console.ReadLine());
+                    Console.Write("Geef de weerstand: ");
+                    R = double.Parse(Console.ReadLine());
+
+                    U = R * I;
+
                     break;
                 case "weerstand":
+                    Console.Write("Geef de stroomsterkte: ");
+                    I = double.Parse(Console.ReadLine());
+                    Console.Write("Geef de spanning: ");
+                    U = double.Parse(Console.ReadLine());
+
+                    R = U / I;
                     break;
                 case "stroomsterkte":
+                    Console.Write("Geef de spanning: ");
+                    U = int.Parse(Console.ReadLine());
+                    Console.Write("Geef de weerstand: ");
+                    R = int.Parse(Console.ReadLine());
+
+                    I = U / R;
+
                     break;
 
                 default:
