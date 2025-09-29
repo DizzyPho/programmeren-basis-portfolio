@@ -10,7 +10,7 @@ muntstukkenVan2Euro = int.Parse(Console.ReadLine());
 
 int muntstukkenVan1Euro = 0;
 Console.Write("Aantal muntstukken van 1 euro?: ");
-muntstukkenVan2Euro = int.Parse(Console.ReadLine());
+muntstukkenVan1Euro = int.Parse(Console.ReadLine());
 
 int muntstukkenVan50Cent;
 Console.Write("Aantal muntstukken van 50 eurocent?: ");
