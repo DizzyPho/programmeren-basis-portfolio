@@ -14,6 +14,17 @@
             double lengteKwadraat = Math.Pow(lengteInMeter, 2);
 
             double bmi = gewicht / lengteKwadraat;
+
+            string gewichtCategorie = bmi switch
+            {
+                < 18.5 => "ondergewicht",
+                < 25 => "normaal gewicht",
+                < 30 => "overgewicht",
+                < 40 => "zwaarlijvigheid",
+                _ => "ernstige zwaarlijvigheid"
+            };
+            
+            
         }
     }
 }
