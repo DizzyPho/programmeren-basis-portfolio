@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36511.14 d17.14
+VisualStudioVersion = 17.14.36511.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04muntstukken", "D04muntstukken\D04muntstukken.csproj", "{FD7F005D-DE65-4E7C-B67D-55D9CA4A0629}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04prijsappels", "D04prijsappels\D04prijsappels.csproj", "{73C7B042-ABAD-4CF6-9507-A4D54BBFF757}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04ohm", "D04ohm\D04ohm.csproj", "{9497863D-8FA8-4C49-8937-8E70DB8CA31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04score", "D04score\D04score.csproj", "{7621BB8A-3696-486C-A27F-1E91937E348C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9497863D-8FA8-4C49-8937-8E70DB8CA31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9497863D-8FA8-4C49-8937-8E70DB8CA31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9497863D-8FA8-4C49-8937-8E70DB8CA31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7621BB8A-3696-486C-A27F-1E91937E348C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7621BB8A-3696-486C-A27F-1E91937E348C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7621BB8A-3696-486C-A27F-1E91937E348C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7621BB8A-3696-486C-A27F-1E91937E348C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
