@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04ohm", "D04ohm\D04ohm.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04score", "D04score\D04score.csproj", "{7621BB8A-3696-486C-A27F-1E91937E348C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04toelage", "D04toelage\D04toelage.csproj", "{C35900B0-1E0A-48CF-BC16-9064C331E826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{7621BB8A-3696-486C-A27F-1E91937E348C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7621BB8A-3696-486C-A27F-1E91937E348C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7621BB8A-3696-486C-A27F-1E91937E348C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35900B0-1E0A-48CF-BC16-9064C331E826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35900B0-1E0A-48CF-BC16-9064C331E826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35900B0-1E0A-48CF-BC16-9064C331E826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35900B0-1E0A-48CF-BC16-9064C331E826}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
