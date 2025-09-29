@@ -10,22 +10,29 @@ namespace D04weer_2
             bool regen = UserInputHulpKlasse.UserInputJaNee("Regent het?");
 
             string weer;
-            if (zon && regen)
+            if (zon)
             {
-                weer = "Er is een regenboog.";
-            }
-            else if (zon && !regen)
-            {
-                weer = "Het is een mooie dag.";
-            }
-            else if (!zon && regen)
-            {
-                weer = "Het is slecht weer.";
+                if (regen)
+                {
+                    weer = "Er is een regenboog.";
+                }
+                else
+                {
+                    weer = "Het is een mooie dag.";
+
+                }
             }
             else
             {
-                weer = "Het is een saaie dag.";
-            }
+                if (regen)
+                {
+                    weer = "Het is slecht weer.";
+                }
+                else
+                {
+                    weer = "Het een saaie dag weer.";
+                }
+            }    
 
             Console.WriteLine(weer);
         }
