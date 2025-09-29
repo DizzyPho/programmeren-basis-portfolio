@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace D04geslaagd
+namespace UserInput
 {
     internal class UserInputHulpKlasse
     {
