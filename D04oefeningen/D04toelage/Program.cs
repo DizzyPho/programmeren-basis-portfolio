@@ -16,6 +16,9 @@
             {
                 double toelage = inkomen * toelagePercent;
                 Console.WriteLine($"Jouw toelage is {toelage} euro.");
+            } else
+            {
+                Console.WriteLine("Jouw toelage is 0 euro.");
             }
 
         }
