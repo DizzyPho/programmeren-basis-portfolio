@@ -7,6 +7,12 @@ namespace D04schrikkeljaar
         static void Main(string[] args)
         {
             int jaartal = UserInputHulpKlasse.UserInputGetal("Geef een jaartal in: ");
+
+            bool deelbaarDoorVier = jaartal % 4 == 0;
+            bool deelbaarDoor100 = jaartal % 100 == 0;
+            bool deelbaarDoor400 = jaartal % 400 == 0;
+
+
         }
     }
 }
