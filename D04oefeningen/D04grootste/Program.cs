@@ -13,6 +13,8 @@ namespace D04grootste
             int grootste;
             grootste = Math.Max(getal1, getal2);
             grootste = Math.Max(grootste, getal3);
+
+            Console.WriteLine($"Van de getallen {getal1}, {getal2} en {getal3} is {grootste} het grootst!");
         }
     }
 }
