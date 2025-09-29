@@ -1,10 +1,12 @@
-﻿namespace D04schrikkeljaar
+﻿using D04geslaagd;
+
+namespace D04schrikkeljaar
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int jaartal = UserInputHulpKlasse.UserInputGetal("Geef een jaartal in: ");
         }
     }
 }
