@@ -20,6 +20,7 @@
                     R = double.Parse(Console.ReadLine());
 
                     U = R * I;
+                    Console.WriteLine($"De spanning is {U}");
 
                     break;
                 case "weerstand":
@@ -29,6 +30,8 @@
                     U = double.Parse(Console.ReadLine());
 
                     R = U / I;
+                    Console.WriteLine($"De weerstand is {R}");
+
                     break;
                 case "stroomsterkte":
                     Console.Write("Geef de spanning: ");
@@ -37,9 +40,9 @@
                     R = int.Parse(Console.ReadLine());
 
                     I = U / R;
+                    Console.WriteLine($"De stroomsterkte is {I}");
 
                     break;
-
                 default:
                     Console.WriteLine("Deze optie is niet herkend. Probeer opnieuw!");
                     break;
