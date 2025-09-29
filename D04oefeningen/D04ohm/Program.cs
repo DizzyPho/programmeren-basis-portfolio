@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Kies wat je wil berekenen: spanning, weerstand of stroomsterkte? ");
+            string optie = Console.ReadLine().ToLower();
+
+            double I;
+            double U;
+            double R; 
+          
         }
     }
 }
