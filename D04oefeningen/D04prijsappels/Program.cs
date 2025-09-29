@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Hoeveel kilo appels wil je kopen?");
+            int kiloAppels = int.Parse(Console.ReadLine()); 
+
+
         }
     }
 }
