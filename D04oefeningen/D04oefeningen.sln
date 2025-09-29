@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04groterofgelijk", "D04gro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04bmi", "D04bmi\D04bmi.csproj", "{3C12B53E-F47F-43E4-8FB3-B89A44CDD899}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04prijsappels", "D04prijsappels\D04prijsappels.csproj", "{73C7B042-ABAD-4CF6-9507-A4D54BBFF757}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3C12B53E-F47F-43E4-8FB3-B89A44CDD899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C12B53E-F47F-43E4-8FB3-B89A44CDD899}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C12B53E-F47F-43E4-8FB3-B89A44CDD899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C7B042-ABAD-4CF6-9507-A4D54BBFF757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C7B042-ABAD-4CF6-9507-A4D54BBFF757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C7B042-ABAD-4CF6-9507-A4D54BBFF757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C7B042-ABAD-4CF6-9507-A4D54BBFF757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
