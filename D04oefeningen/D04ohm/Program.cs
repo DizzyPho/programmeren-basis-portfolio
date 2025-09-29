@@ -9,8 +9,21 @@
 
             double I;
             double U;
-            double R; 
-          
+            double R;
+
+            switch (optie)
+            {
+                case "spanning":
+                    break;
+                case "weerstand":
+                    break;
+                case "stroomsterkte":
+                    break;
+
+                default:
+                    Console.WriteLine("Deze optie is niet herkend. Probeer opnieuw!");
+                    break;
+            }
         }
     }
 }
