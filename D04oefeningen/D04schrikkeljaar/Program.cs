@@ -12,6 +12,14 @@ namespace D04schrikkeljaar
             bool deelbaarDoor100 = jaartal % 100 == 0;
             bool deelbaarDoor400 = jaartal % 400 == 0;
 
+            if ((deelbaarDoorVier && !deelbaarDoor100) || deelbaarDoor400)
+            {
+                Console.WriteLine("Dit is een schrikkeljaar!");
+            }
+            else
+            {
+                Console.WriteLine("Dit is geen schrikkeljaar.");
+            }
 
         }
     }
