@@ -22,6 +22,8 @@
             {
                 resultaat = "Gefaald.";
             }
+
+            Console.WriteLine($"Jouw resultaat is: {resultaat}");
         }
        }
 }
