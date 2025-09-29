@@ -15,5 +15,13 @@ namespace D04geslaagd
 
             return input;
         }
+
+        public static string UserInput(string vraag)
+        {
+            Console.Write(vraag);
+            string input = Console.ReadLine();
+
+            return input;
+        }
     }
 }
