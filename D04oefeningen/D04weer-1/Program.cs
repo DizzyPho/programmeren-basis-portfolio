@@ -26,6 +26,8 @@ namespace D04weer_1
             {
                 weer = "Het is een saaie dag.";
             }
+
+            Console.WriteLine(weer);
         }
     }
 }
