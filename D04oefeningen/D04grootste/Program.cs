@@ -1,10 +1,14 @@
-﻿namespace D04grootste
+﻿using D04geslaagd;
+
+namespace D04grootste
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int getal1 = UserInputHulpKlasse.UserInputGetal("Geef een eerste getal: ");
+            int getal2 = UserInputHulpKlasse.UserInputGetal("Geef een tweede getal: ");
+            int getal3 = UserInputHulpKlasse.UserInputGetal("Geef een derde getal: ");
         }
     }
 }
