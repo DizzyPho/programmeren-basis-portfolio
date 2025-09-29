@@ -9,6 +9,10 @@ namespace D04grootste
             int getal1 = UserInputHulpKlasse.UserInputGetal("Geef een eerste getal: ");
             int getal2 = UserInputHulpKlasse.UserInputGetal("Geef een tweede getal: ");
             int getal3 = UserInputHulpKlasse.UserInputGetal("Geef een derde getal: ");
+
+            int grootste;
+            grootste = Math.Max(getal1, getal2);
+            grootste = Math.Max(grootste, getal3);
         }
     }
 }
