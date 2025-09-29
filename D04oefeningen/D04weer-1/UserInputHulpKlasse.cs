@@ -23,5 +23,12 @@ namespace D04geslaagd
 
             return input;
         }
+
+        public static bool UserInputJaNee(string vraag) {
+            Console.Write(vraag + "(ja/nee) ");
+            string input = Console.ReadLine();
+            bool antwoordIsJa = (input == "ja");
+
+            return antwoordIsJa;
     }
 }
