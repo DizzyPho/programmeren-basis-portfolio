@@ -23,8 +23,11 @@
                 < 40 => "zwaarlijvigheid",
                 _ => "ernstige zwaarlijvigheid"
             };
-            
-            
+
+            //round to one decimal, but never greater than original value
+            double bmiAfgerond = Math.Round(bmi, 1, MidpointRounding.ToNegativeInfinity);
+
+            Console.WriteLine($"BMI: {bmiAfgerond} ({gewichtCategorie})");
         }
     }
 }
