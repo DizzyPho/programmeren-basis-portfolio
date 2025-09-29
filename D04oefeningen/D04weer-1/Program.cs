@@ -1,10 +1,15 @@
-﻿namespace D04weer_1
+﻿using UserInput;
+
+namespace D04weer_1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            bool zon = UserInputHulpKlasse.UserInputJaNee("Schijnt de zon?");
+            bool regen = UserInputHulpKlasse.UserInputJaNee("Regent het?");
+
+
         }
     }
 }
