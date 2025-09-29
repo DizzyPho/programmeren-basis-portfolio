@@ -27,7 +27,7 @@ namespace UserInput
         public static bool UserInputJaNee(string vraag)
         {
             Console.Write(vraag + "(ja/nee) ");
-            string input = Console.ReadLine();
+            string input = Console.ReadLine().ToLower().Trim();
             bool antwoordIsJa = (input == "ja");
 
             return antwoordIsJa;
