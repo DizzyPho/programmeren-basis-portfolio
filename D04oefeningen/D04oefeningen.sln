@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04grootste", "D04grootste\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04schrikkeljaar", "D04schrikkeljaar\D04schrikkeljaar.csproj", "{AEFD23B1-9363-4A07-8BB2-02903839DFC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04weer-1", "D04weer-1\D04weer-1.csproj", "{DF01BBEF-E79D-4AA5-A058-A6EB97A7BF4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{AEFD23B1-9363-4A07-8BB2-02903839DFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEFD23B1-9363-4A07-8BB2-02903839DFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEFD23B1-9363-4A07-8BB2-02903839DFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF01BBEF-E79D-4AA5-A058-A6EB97A7BF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF01BBEF-E79D-4AA5-A058-A6EB97A7BF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF01BBEF-E79D-4AA5-A058-A6EB97A7BF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF01BBEF-E79D-4AA5-A058-A6EB97A7BF4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
