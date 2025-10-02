@@ -1,10 +1,27 @@
-﻿namespace D05som
+﻿using Helper.UserInputHelper;
+
+namespace D05som
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int total = 0;
+
+            do
+            {
+                int addition = UserInput.IntegerInput("Geef een volgend getal in, of -1 om te stoppen en de som te maken: ");
+
+                if (addition == -1)
+                {
+                    break;
+                }
+                total += addition;
+
+            } while (true);
+
+            Console.WriteLine($"Total sum is: {total}");
+
         }
     }
 }
