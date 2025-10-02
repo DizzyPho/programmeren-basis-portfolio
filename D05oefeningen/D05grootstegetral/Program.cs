@@ -6,23 +6,26 @@ namespace D05grootstegetral
     {
         static void Main(string[] args)
         {
-            int total = 0;
+            int largest = 0;
 
             do
             {
-                int addition = UserInput.IntegerInput("Geef een volgend getal in, of -1 om te stoppen en de som te maken: ");
+                int nextNum = UserInput.IntegerInput("Geef een volgend getal in, of -1 om te stoppen en" +
+                    "het grootste te vinden: ");
 
-                if (addition == -1)
+                if (nextNum == -1)
                 {
                     break;
                 }
-                total += addition;
+
+                largest = Math.Max(largest, nextNum);
+
 
             } while (true);
 
-            Console.WriteLine($"Total sum is: {total}");
+            Console.WriteLine($"Grootste getal is: {largest}");
 
         }
     }
 }
-}
+
