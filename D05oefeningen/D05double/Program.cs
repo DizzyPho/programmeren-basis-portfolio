@@ -7,14 +7,19 @@ namespace D05double
         static void Main(string[] args)
         {
             double number;
-            try
+            do
             {
-                number = UserInput.DoubleInput("Geef een double getal in: ");
-                Console.WriteLine($"Dankje voor het getal ({number})");
-            } catch
-            {
-                Console.WriteLine("Afgebroken wegens geen double.");
-            }
+                try
+                {
+                    number = UserInput.DoubleInput("Geef een double getal in: ");
+                    Console.WriteLine($"Dankje voor het getal ({number})");
+                }
+                catch
+                {
+                    Console.WriteLine("Afgebroken wegens geen double.");
+                    break;
+                }
+            }  while (true);
         }
     }
 }
