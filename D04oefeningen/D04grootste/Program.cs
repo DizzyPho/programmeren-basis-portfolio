@@ -2,7 +2,7 @@
 
 namespace D04grootste
 {
-    internal class Program
+    internal class Program 
     {
         static void Main(string[] args)
         {
