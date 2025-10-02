@@ -14,7 +14,18 @@ namespace D05fibonacci
             int previousFiboNumber = 0;
             int currentFiboNumber = 1;
 
+            do
+            {
+                Console.WriteLine(currentFiboNumber);
 
+                int temp = currentFiboNumber;
+                currentFiboNumber += previousFiboNumber;
+                previousFiboNumber = temp;
+
+
+
+                iterationNumber++;
+            } while (iterationNumber <= months);
         }
     }
 }
