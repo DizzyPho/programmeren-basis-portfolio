@@ -13,7 +13,12 @@ namespace D05rechthoek
 
             for (int i = 0; i < width; i++)
             {
-                line += "*";
+                line += " * ";
+            }
+
+            for (int i = 0;i < height; i++)
+            {
+                Console.WriteLine(line);
             }
         }
     }
