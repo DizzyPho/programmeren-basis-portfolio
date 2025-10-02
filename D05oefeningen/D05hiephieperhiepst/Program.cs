@@ -10,7 +10,8 @@
             int jaar = 1;
             while (jaar <= leeftijd)
             {
-                Console.WriteLine("Hiep hiep hiep, hoera!");
+                Console.WriteLine("Hiep hiep hiep, hoera!\n" +
+                    "\tNog een keer!");
                 jaar++;
             }
         }
