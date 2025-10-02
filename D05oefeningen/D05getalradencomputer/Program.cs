@@ -6,6 +6,7 @@ namespace D05getalradencomputer
     {
         static void Main(string[] args)
         {
+            Random rand = new Random();
             int iterationNumber = 0;
             int guess;
             int min = 0;
@@ -13,7 +14,7 @@ namespace D05getalradencomputer
             bool numberGuessed = false;
             do
             {
-                guess = (min + max) / 2;
+                guess = rand.Next(min,max);
 
                 string higherLower = UserInput.StringInput($"I guess {guess}. Higher, lower? or correct? ");
 
@@ -29,6 +30,7 @@ namespace D05getalradencomputer
                         numberGuessed = true;
                         break;
                     default:
+                        Console.WriteLine("Incorrect input.");
                         break;
                 }
 
