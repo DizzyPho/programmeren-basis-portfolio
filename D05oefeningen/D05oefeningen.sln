@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36511.14 d17.14
+VisualStudioVersion = 17.14.36511.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D05twintigtottien", "D05twintigtottien\D05twintigtottien.csproj", "{AE884040-A911-472A-B0D9-D22AC3B85DB8}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D05rechthoek", "D05rechthoek\D05rechthoek.csproj", "{B66D20D6-F17F-427A-93CA-5B7FFBB6B1C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D05driehoek", "D05driehoek\D05driehoek.csproj", "{6190E4A0-1C92-43FB-A1BA-40F0132F5EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D05double", "D05double\D05double.csproj", "{8D222B2D-88C5-40A1-8964-2F4B1DBE9F4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6190E4A0-1C92-43FB-A1BA-40F0132F5EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6190E4A0-1C92-43FB-A1BA-40F0132F5EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6190E4A0-1C92-43FB-A1BA-40F0132F5EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D222B2D-88C5-40A1-8964-2F4B1DBE9F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D222B2D-88C5-40A1-8964-2F4B1DBE9F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D222B2D-88C5-40A1-8964-2F4B1DBE9F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D222B2D-88C5-40A1-8964-2F4B1DBE9F4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
