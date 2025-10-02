@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int currentNumber = 20;
+            do {
+                Console.WriteLine(currentNumber);
+                currentNumber -= 2;
+
+            } while (currentNumber >= 10);
         }
     }
 }
