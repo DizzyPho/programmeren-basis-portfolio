@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D05reeks", "D05reeks\D05ree
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D05fibonacci", "D05fibonacci\D05fibonacci.csproj", "{D59BA829-1570-4395-B699-C17337A0B750}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D05somverschil", "D05somverschil\D05somverschil.csproj", "{350556FB-638D-4636-9DC2-CE9E9DD8BCB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{D59BA829-1570-4395-B699-C17337A0B750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D59BA829-1570-4395-B699-C17337A0B750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D59BA829-1570-4395-B699-C17337A0B750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{350556FB-638D-4636-9DC2-CE9E9DD8BCB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350556FB-638D-4636-9DC2-CE9E9DD8BCB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350556FB-638D-4636-9DC2-CE9E9DD8BCB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350556FB-638D-4636-9DC2-CE9E9DD8BCB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
