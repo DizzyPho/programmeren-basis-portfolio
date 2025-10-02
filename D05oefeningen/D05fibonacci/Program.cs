@@ -6,7 +6,15 @@ namespace D05fibonacci
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int months = UserInput.IntegerInput("How many months? ");
+
+            int iterationNumber = 1;
+
+            //definition of fibonacci row
+            int previousFiboNumber = 0;
+            int currentFiboNumber = 1;
+
+
         }
     }
 }
