@@ -1,4 +1,6 @@
-﻿namespace D05simon
+﻿using Helper.UserInputHelper;
+
+namespace D05simon
 {
     internal class Program
     {
@@ -15,7 +17,7 @@
             System.Threading.Thread.Sleep( 3000 );
             Console.Clear();
 
-
+            string userGuess = UserInput.StringInput("Type the number here: ");
         }
     }
 }
