@@ -20,6 +20,7 @@ namespace D05simon
                 Console.Clear();
 
                 userGuess = UserInput.StringInput("Type the number here: ");
+                Console.Clear();
             } while (userGuess == numberToRemember);
 
             Console.WriteLine($"You lost! The number was: {numberToRemember}");
