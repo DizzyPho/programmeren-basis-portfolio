@@ -8,16 +8,18 @@
             string[] limbs = ["linkerhand", "rechterhand", "linkervoet", "rechtervoet"];
 
             Random rand = new Random();
+            while (true)
+            {
+                int whichLimb = rand.Next(limbs.Length);
+                int whichColor = rand.Next(colors.Length);
 
-            int whichLimb = rand.Next(limbs.Length);
-            int whichColor = rand.Next(colors.Length);
+                string limb = limbs[whichLimb];
+                string color = colors[whichColor];
 
-            string limb = limbs[whichLimb];
-            string color = colors[whichColor];
+                Console.WriteLine($"{limb} op {color}!");
 
-            Console.WriteLine($"{limb} op {color}!");
-
-            System.Threading.Thread.Sleep(7000);
+                System.Threading.Thread.Sleep(7000);
+            }
         }
     }
 }
