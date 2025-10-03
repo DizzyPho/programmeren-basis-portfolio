@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-           string[] colors = ["geel","groen","rood","blauw"];
-           string[] limbs = ["linkerhand", "rechterhand", "linkervoet", "rechtervoet"];
+            string[] colors = ["geel","groen","rood","blauw"];
+            string[] limbs = ["linkerhand", "rechterhand", "linkervoet", "rechtervoet"];
 
-           Random rand = new Random();
+            Random rand = new Random();
 
 
         }
