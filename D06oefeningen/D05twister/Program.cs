@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           string[] colors = ["geel","groen","rood","blauw"];
+           string[] limbs = ["linkerhand", "rechterhand", "linkervoet", "rechtervoet"];
+
+           Random rand = new Random();
+
+
         }
     }
 }
