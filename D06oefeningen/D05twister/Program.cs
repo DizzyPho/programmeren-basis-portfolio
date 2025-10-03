@@ -8,6 +8,10 @@
             string[] limbs = ["linkerhand", "rechterhand", "linkervoet", "rechtervoet"];
 
             Random rand = new Random();
+
+            Console.WriteLine("Game starts in 3 seconds.");
+            System.Threading.Thread.Sleep(3000);
+
             while (true)
             {
                 int whichLimb = rand.Next(limbs.Length);
