@@ -11,6 +11,9 @@
 
             numberToRemember += randomNumber;
 
+            Console.WriteLine($"You have 3 seconds to remember this number: \n{numberToRemember}");
+            System.Threading.Thread.Sleep( 3000 );
+            Console.Clear();
         }
     }
 }
