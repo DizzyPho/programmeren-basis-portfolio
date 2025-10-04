@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            for (int i = 10; i >= 2; i--)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
