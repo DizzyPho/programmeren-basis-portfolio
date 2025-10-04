@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D05twister", "D05twister\D05twister.csproj", "{3ADD562F-F58D-464B-9676-C37EDCBE1251}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D06twister", "D06twister\D06twister.csproj", "{3ADD562F-F58D-464B-9676-C37EDCBE1251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D05simon", "D05simon\D05simon.csproj", "{809057D0-EF26-4614-8E81-DC3D52F1A84F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D06simon", "D06simon\D06simon.csproj", "{809057D0-EF26-4614-8E81-DC3D52F1A84F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
