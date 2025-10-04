@@ -6,7 +6,8 @@ namespace D06somtussengrenzen
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int lowerBound = UserInput.IntegerInput("Give a lower bound: ");
+            int upperBound = UserInput.IntegerInput("Give an upper bound: ");
         }
     }
 }
