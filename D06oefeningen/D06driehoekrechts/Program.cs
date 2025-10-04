@@ -14,6 +14,7 @@ namespace D06driehoekrechts
             {
                 int secondLastEmptySpace = height - i - 1;
                 row = row.Remove(secondLastEmptySpace, 1).Insert(secondLastEmptySpace, "*");
+                Console.WriteLine(row);
             }
         }
     }
