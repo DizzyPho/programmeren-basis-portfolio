@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D06getallentussen20en30", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D06getallenuitrij", "D06getallenuitrij\D06getallenuitrij.csproj", "{6A3A5687-231E-4ECE-B2D4-6F95D7F8F50C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D06somtussengrenzen", "D06somtussengrenzen\D06somtussengrenzen.csproj", "{DEF56C8A-D067-4939-A8F9-D631FD0BD712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D06somevenoneven", "D06somevenoneven\D06somevenoneven.csproj", "{4247C212-74A5-4ABC-8981-48EFD76E36F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{6A3A5687-231E-4ECE-B2D4-6F95D7F8F50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A3A5687-231E-4ECE-B2D4-6F95D7F8F50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A3A5687-231E-4ECE-B2D4-6F95D7F8F50C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF56C8A-D067-4939-A8F9-D631FD0BD712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF56C8A-D067-4939-A8F9-D631FD0BD712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF56C8A-D067-4939-A8F9-D631FD0BD712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF56C8A-D067-4939-A8F9-D631FD0BD712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4247C212-74A5-4ABC-8981-48EFD76E36F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4247C212-74A5-4ABC-8981-48EFD76E36F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4247C212-74A5-4ABC-8981-48EFD76E36F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4247C212-74A5-4ABC-8981-48EFD76E36F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
