@@ -1,0 +1,10 @@
+﻿namespace D07achterstevoren
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
