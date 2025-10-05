@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D07karakterpositie", "D07ka
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D07achterstevoren", "D07achterstevoren\D07achterstevoren.csproj", "{3E9B01E4-B36B-4560-9A11-1250AD07DCB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D07leestekens", "D07leestekens\D07leestekens.csproj", "{F60BD122-1BC3-4EBA-9EC6-388602B76E8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3E9B01E4-B36B-4560-9A11-1250AD07DCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E9B01E4-B36B-4560-9A11-1250AD07DCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E9B01E4-B36B-4560-9A11-1250AD07DCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60BD122-1BC3-4EBA-9EC6-388602B76E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60BD122-1BC3-4EBA-9EC6-388602B76E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60BD122-1BC3-4EBA-9EC6-388602B76E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60BD122-1BC3-4EBA-9EC6-388602B76E8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
