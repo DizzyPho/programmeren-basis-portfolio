@@ -7,8 +7,8 @@ namespace D07tussenaccolades
         static void Main(string[] args)
         {
             string text = UserInput.StringInput("Input some text: ");
-            int startIndex = findOpenAccolade(text);
-            int endIndex = findCloseAccolade(text);
+            int startIndex = FindOpenAccolade(text);
+            int endIndex = FindCloseAccolade(text);
 
             string output = "";
 
@@ -25,12 +25,12 @@ namespace D07tussenaccolades
             }
             Console.WriteLine(output);
 
-            static int findOpenAccolade(string text)
+            static int FindOpenAccolade(string text)
             {
                 return text.IndexOf('{');
             }
 
-            static int findCloseAccolade(string text)
+            static int FindCloseAccolade(string text)
             {
                 return text.IndexOf('}');
             }
