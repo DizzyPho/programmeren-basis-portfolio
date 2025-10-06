@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D07leestekens", "D07leestek
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D07hoofdletter", "D07hoofdletter\D07hoofdletter.csproj", "{F9D0D385-0D50-4B90-A373-774108278426}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D07aantalkeere", "D07aantalkeere\D07aantalkeere.csproj", "{D0090111-66CA-4A21-8097-7C05A5FA4FB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F9D0D385-0D50-4B90-A373-774108278426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9D0D385-0D50-4B90-A373-774108278426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9D0D385-0D50-4B90-A373-774108278426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0090111-66CA-4A21-8097-7C05A5FA4FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0090111-66CA-4A21-8097-7C05A5FA4FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0090111-66CA-4A21-8097-7C05A5FA4FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0090111-66CA-4A21-8097-7C05A5FA4FB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
