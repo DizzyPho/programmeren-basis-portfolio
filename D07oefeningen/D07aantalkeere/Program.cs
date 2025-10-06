@@ -9,14 +9,14 @@ namespace D07aantalkeere
             string text = UserInput.StringInput("Give some text: ");
             int eCounter = 0;
             foreach (char c in text) {
-                if (isE(c)) { 
+                if (IsE(c)) { 
                     eCounter++;
                 }
             }
 
             Console.WriteLine($"The character 'e' appears {eCounter} times in this text.");
         }
-        static bool isE(char c)
+        static bool IsE(char c)
         {
             return Char.ToLower(c) == 'e';
         }
