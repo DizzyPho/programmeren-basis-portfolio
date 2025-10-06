@@ -6,7 +6,10 @@
         {
 
         }
-
+        static bool isE(char c)
+        {
+            return Char.ToLower(c) == 'e';
+        }
 
     }
 }
