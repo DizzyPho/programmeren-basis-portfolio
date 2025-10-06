@@ -16,6 +16,8 @@ namespace D07tussenaccolades
                 output += text[index];
             }
 
+            Console.WriteLine(output);
+
             static int findOpenAccolade(string text) {
                 return text.IndexOf('{');            
             }
