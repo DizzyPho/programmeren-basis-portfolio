@@ -14,6 +14,10 @@
             gemeenten[5] = "8000";
             gemeenten[6] = "Gent";
             gemeenten[7] = "9000";
+
+            for (int index = 1; index < gemeenten.Length; index += 2) {
+                Console.WriteLine(gemeenten[index]);
+            }
         }
     }
 }
