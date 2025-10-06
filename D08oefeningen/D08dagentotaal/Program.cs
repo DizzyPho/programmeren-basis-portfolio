@@ -20,6 +20,11 @@
             dagen[11] = 31;
 
             int totaal = 0;
+
+            foreach (int aantal in dagen) {
+                totaal += aantal;            
+            }
+            Console.WriteLine(totaal);
         }
     }
 }
