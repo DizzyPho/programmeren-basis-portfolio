@@ -26,11 +26,13 @@ namespace D07medeklinkers
         static bool isVowel(char c)
         {
             const string vowels = "aeiou";
+            c = Char.ToLower(c);
             return vowels.Contains(c);
         }
         static bool isConsonant(char c)
         {
             const string consonants = "bcdfghjklmnpqrstvwxyz";
+            c = Char.ToLower(c);
             return consonants.Contains(c);
         }
     }
