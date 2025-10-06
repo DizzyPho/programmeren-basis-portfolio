@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D08gemeenten", "D08gemeente
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D08dagentotaal", "D08dagentotaal\D08dagentotaal.csproj", "{A26344B9-BE91-4296-9AEF-5004F6F3427D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D08toongetallen", "D08toongetallen\D08toongetallen.csproj", "{3878EF56-52A3-4619-8ABA-4DB2CCB3D8B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A26344B9-BE91-4296-9AEF-5004F6F3427D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26344B9-BE91-4296-9AEF-5004F6F3427D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26344B9-BE91-4296-9AEF-5004F6F3427D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3878EF56-52A3-4619-8ABA-4DB2CCB3D8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3878EF56-52A3-4619-8ABA-4DB2CCB3D8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3878EF56-52A3-4619-8ABA-4DB2CCB3D8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3878EF56-52A3-4619-8ABA-4DB2CCB3D8B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
