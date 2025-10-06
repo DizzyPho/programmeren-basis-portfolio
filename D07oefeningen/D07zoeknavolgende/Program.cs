@@ -11,6 +11,7 @@ namespace D07zoeknavolgende
 
             int timesFound = 0;
             int foundAtIndex = 0;
+            int searchLength = search.Length;
 
             while (foundAtIndex != -1)
             {
@@ -19,7 +20,7 @@ namespace D07zoeknavolgende
                     break;
                 }
 
-                foundAtIndex = text.IndexOf(search, foundAtIndex + 1);
+                foundAtIndex = text.IndexOf(search, foundAtIndex + searchLength - 1);
 
                 if (foundAtIndex != -1)
                 {
