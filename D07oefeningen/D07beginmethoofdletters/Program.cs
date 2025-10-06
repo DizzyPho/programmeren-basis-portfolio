@@ -1,10 +1,15 @@
-﻿namespace D07beginmethoofdletters
+﻿using Helper.UserInputHelper;
+
+namespace D07beginmethoofdletters
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string text = UserInput.StringInput("Give some text: ");
+            string output = "";
+
+
         }
     }
 }
