@@ -11,11 +11,11 @@ namespace D07medeklinkers
             int consCounter = 0;
 
             foreach (char c in text) {
-                if (isVowel(c))
+                if (IsVowel(c))
                 {
                     vowelCounter++;
                 }
-                else if (isConsonant(c))
+                else if (IsConsonant(c))
                 {
                     consCounter++;
                 } 
@@ -23,13 +23,13 @@ namespace D07medeklinkers
             Console.WriteLine($"This text contains {vowelCounter} vowels and {consCounter} consonants.");
         }
 
-        static bool isVowel(char c)
+        static bool IsVowel(char c)
         {
             const string vowels = "aeiou";
             c = Char.ToLower(c);
             return vowels.Contains(c);
         }
-        static bool isConsonant(char c)
+        static bool IsConsonant(char c)
         {
             const string consonants = "bcdfghjklmnpqrstvwxyz";
             c = Char.ToLower(c);
