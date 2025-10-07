@@ -39,11 +39,11 @@ namespace D08rijen
             return row;
         }
 
-        static double potentialFactor(int[] row) { 
+        static double PotentialFactor(int[] row) { 
             return row[1] / row[0];
         }
 
-        static double potentialDelta(int[] row) {
+        static double PotentialDelta(int[] row) {
             return row[1] - row[0];
         }
     }
