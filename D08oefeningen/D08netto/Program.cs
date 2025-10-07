@@ -9,7 +9,10 @@
 
             double nettoBedrag = brutoBedrag;
 
-
+            foreach(double korting in kortingen)
+            {
+                nettoBedrag -= korting;
+            }
 
             Console.Write("Netto bedrag: " + nettoBedrag);
         }
