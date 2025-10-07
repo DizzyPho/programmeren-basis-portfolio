@@ -26,6 +26,7 @@ namespace D08rijen
             double potentialFactor = PotentialFactor(row);
             if (IsGeometricRow(potentialFactor, row)) {
                 Console.WriteLine($"This is a geometric row with factor {potentialFactor}.");
+                return;
             }
 
             Console.WriteLine("This is a normal row.");
