@@ -34,7 +34,20 @@ namespace D08woordslang
                     firstIteration = false;
                     continue;
                 }
-                Console.WriteLine(word);
+
+                char lastLetter = lastWord[lastWord.Length - 1];
+                char firstLetter = word[0];
+
+                if (lastLetter == firstLetter)
+                {
+                    output += "-" + word;
+                }
+                else
+                {
+                    break;
+                }
+
+                lastWord = word;
             }
             Console.WriteLine("The word snake is: " + output);
         }
