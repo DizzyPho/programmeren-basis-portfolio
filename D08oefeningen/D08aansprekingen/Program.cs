@@ -6,7 +6,11 @@
         {
             string[] aansprekingen = { "Jan", "Piet", "Pol" };
 
-
+            for (int index = 0; index < aansprekingen.Length; index++)
+            {
+                string naam = aansprekingen[index];
+                aansprekingen[index] = $"Dag {naam}";
+            }
 
             foreach (string aanspreking in aansprekingen)
             {
