@@ -60,7 +60,20 @@ namespace D08rijen
             return true;
         }
 
+        static bool IsGeometricRow(double factor, int[] row) {
 
+            for (int i = 0; i < row.Length - 1; i++)
+            {
+                int current = row[i];
+                int next = row[i + 1];
+                if (next != current * factor)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
 
     }
 }
