@@ -1,5 +1,6 @@
 ﻿
 using Helper.UserInputHelper;
+using System.ComponentModel.DataAnnotations;
 
 namespace D08omgekeerdevolgorde
 {
@@ -12,9 +13,13 @@ namespace D08omgekeerdevolgorde
             //for loop starting from back of array. 
 
             int amountOfNames = UserInput.IntegerInput("How many names would you like to input?");
-            string[] names = new string[amountOfNames]; 
+            string[] names = new string[amountOfNames];
 
-
+            for (int index = 0; index < amountOfNames; index++) {
+                string name = UserInput.StringInput("Input a name: ");
+                names[index] = name;
+            }
+            Console.WriteLine(names);
 
         }
     }
