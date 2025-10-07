@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string[] aansprekingen = { "Jan", "Piet", "Pol" };
+
+
+
+            foreach (string aanspreking in aansprekingen)
+            {
+                Console.WriteLine(aanspreking);
+            }
         }
     }
 }
