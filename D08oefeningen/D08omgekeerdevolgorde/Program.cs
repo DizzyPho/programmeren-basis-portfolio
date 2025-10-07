@@ -15,11 +15,16 @@ namespace D08omgekeerdevolgorde
             int amountOfNames = UserInput.IntegerInput("How many names would you like to input?");
             string[] names = new string[amountOfNames];
 
-            for (int index = 0; index < amountOfNames; index++) {
+            for (int index = 0; index < amountOfNames; index++)
+            {
                 string name = UserInput.StringInput("Input a name: ");
                 names[index] = name;
             }
-            Console.WriteLine(names);
+
+            for (int index = amountOfNames - 1; index >= 0; index--)
+            {
+                Console.WriteLine(names[index]);
+            }
 
         }
     }
