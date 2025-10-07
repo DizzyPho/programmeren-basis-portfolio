@@ -5,7 +5,11 @@ namespace D08omgekeerdevolgorde
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //ask amount and create array w that length
+            //for loop + userinput to fill array
+            //for loop starting from back of array. 
+
+
         }
     }
 }
