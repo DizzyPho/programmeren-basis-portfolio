@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int[] getallen = new int[9];
+
+            // opvullen
+
+
+            // afdrukken
+            for (int index = 0; index < getallen.Length; index++)
+            {
+                Console.Write(getallen[index] + " ");
+            }
         }
     }
 }
