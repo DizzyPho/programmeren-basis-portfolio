@@ -15,6 +15,20 @@ namespace D08rijen
 
             // calc potential delta/factor based on first 2 items
             // check if delta / factor applies to rest of array
+            double[] row = GetRow();
+
+            double potentialDelta = PotentialDelta(row);
+            if (IsArethmeticRow(potentialDelta, row)) {
+                Console.WriteLine($"This is an arethmetic row with delta {potentialDelta}.");
+                return;
+            } 
+
+            double potentialFactor = PotentialFactor(row);
+            if (IsGeometricRow(potentialFactor, row)) {
+                Console.WriteLine($"This is a geometric row with factor {potentialFactor}.");
+            }
+
+            Console.WriteLine("This is a normal row.");
 
         }
 
@@ -51,7 +65,7 @@ namespace D08rijen
             for (int i = 0; i < row.Length - 1; i++) {
                 double current = row[i];
                 double next = row[i + 1];
-                if (next != current + delta) { 
+                if (next != current + delta && next != 0) { 
                     return false;
                 }
             }
@@ -65,7 +79,7 @@ namespace D08rijen
             {
                 double current = row[i];
                 double next = row[i + 1];
-                if (next != current * factor)
+                if (next != current * factor && next != 0)
                 {
                     return false;
                 }
