@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            double[] kortingen = { 10, 50, 19.4 };
+            double brutoBedrag = 1000;
+
+            double nettoBedrag = brutoBedrag;
+
+
+
+            Console.Write("Netto bedrag: " + nettoBedrag);
         }
     }
 }
