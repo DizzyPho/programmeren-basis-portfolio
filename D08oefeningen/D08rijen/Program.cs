@@ -16,7 +16,6 @@ namespace D08rijen
             // calc potential delta/factor based on first 2 items
             // check if delta / factor applies to rest of array
 
-
         }
 
         static double[] GetRow() {
@@ -39,19 +38,19 @@ namespace D08rijen
             return row;
         }
 
-        static double PotentialFactor(int[] row) { 
+        static double PotentialFactor(double[] row) { 
             return row[1] / row[0];
         }
 
-        static double PotentialDelta(int[] row) {
+        static double PotentialDelta(double[] row) {
             return row[1] - row[0];
         }
 
-        static bool IsArethmeticRow(double delta, int[] row) {
+        static bool IsArethmeticRow(double delta, double[] row) {
 
             for (int i = 0; i < row.Length - 1; i++) {
-                int current = row[i];
-                int next = row[i + 1];
+                double current = row[i];
+                double next = row[i + 1];
                 if (next != current + delta) { 
                     return false;
                 }
@@ -60,12 +59,12 @@ namespace D08rijen
             return true;
         }
 
-        static bool IsGeometricRow(double factor, int[] row) {
+        static bool IsGeometricRow(double factor, double[] row) {
 
             for (int i = 0; i < row.Length - 1; i++)
             {
-                int current = row[i];
-                int next = row[i + 1];
+                double current = row[i];
+                double next = row[i + 1];
                 if (next != current * factor)
                 {
                     return false;
