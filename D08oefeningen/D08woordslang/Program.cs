@@ -15,8 +15,13 @@ namespace D08woordslang
             //break if first of current word != last of last word 
             //else: add word to output string
 
+            string[] wordSnake = new string[5];
+            for (int i = 0; i < wordSnake.Length; i++)
+            {
+                string word = UserInput.StringInput("Input a word: ");
+                wordSnake[i] = word;
+            }
 
-            
         }
     }
 }
