@@ -45,7 +45,7 @@ namespace D08rijen
                     break;
                 }
 
-                int number = int.Parse(numberText);
+                double number = double.Parse(numberText);
                 row[i] = number;
             }
 
