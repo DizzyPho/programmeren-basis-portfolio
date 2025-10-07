@@ -19,9 +19,9 @@ namespace D08rijen
 
         }
 
-        static int[] GetRow() {
+        static double[] GetRow() {
 
-            int[] row = new int[6];
+            double[] row = new double[6];
             for (int i = 0; i < 6; i++)
             {
                 Console.Write("Input the next number, or enter to stop: ");
@@ -59,6 +59,8 @@ namespace D08rijen
 
             return true;
         }
+
+
 
     }
 }
