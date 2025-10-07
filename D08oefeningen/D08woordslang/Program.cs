@@ -22,6 +22,21 @@ namespace D08woordslang
                 words[i] = word;
             }
 
+            string lastWord = string.Empty;
+            string output = string.Empty;
+
+            bool firstIteration = true;
+            foreach (string word in words) {
+
+                if (firstIteration) {
+                    output += word;
+                    lastWord = word;
+                    firstIteration = false;
+                    continue;
+                }
+                Console.WriteLine(word);
+            }
+            Console.WriteLine("The word snake is: " + output);
         }
     }
 }
