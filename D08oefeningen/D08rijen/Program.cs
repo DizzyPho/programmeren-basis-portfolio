@@ -15,7 +15,7 @@ namespace D08rijen
 
             // calc potential delta/factor based on first 2 items
             // check if delta / factor applies to rest of array
-                
+
 
         }
 
@@ -45,6 +45,19 @@ namespace D08rijen
 
         static double PotentialDelta(int[] row) {
             return row[1] - row[0];
+        }
+
+        static bool IsArethmeticRow(int delta, int[] row) {
+
+            for (int i = 0; i < row.Length - 1; i++) {
+                int current = row[i];
+                int next = row[i + 1];
+                if (next != current + delta) { 
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }
