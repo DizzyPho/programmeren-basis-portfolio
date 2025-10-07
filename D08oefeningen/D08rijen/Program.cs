@@ -47,7 +47,7 @@ namespace D08rijen
             return row[1] - row[0];
         }
 
-        static bool IsArethmeticRow(int delta, int[] row) {
+        static bool IsArethmeticRow(double delta, int[] row) {
 
             for (int i = 0; i < row.Length - 1; i++) {
                 int current = row[i];
@@ -59,5 +59,6 @@ namespace D08rijen
 
             return true;
         }
+
     }
 }
