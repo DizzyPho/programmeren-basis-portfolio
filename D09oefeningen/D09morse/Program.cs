@@ -22,6 +22,11 @@ namespace D09morse
                 
                 int morseIndex = Array.IndexOf(morse, input);
 
+                if (morseIndex == -1)
+                {
+                    Console.WriteLine("Invalid morse code.");
+                    continue;
+                }
             }
         }
     }
