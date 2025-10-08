@@ -31,6 +31,7 @@ namespace D09morse
                 decoded += letters[morseIndex];
                 Console.WriteLine($"Word so far: {decoded}");
             }
+            Console.WriteLine($"The word I decoded is: {decoded}.");
         }
     }
 }
