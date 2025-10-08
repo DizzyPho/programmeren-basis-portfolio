@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09herkansing", "D09herkans
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09toonscore", "D09toonscore\D09toonscore.csproj", "{8ACBF3BC-3F88-4920-A9A5-203ADE8030F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09morse", "D09morse\D09morse.csproj", "{AD3CD1C9-7BB2-4E64-9D12-F9D2C1A981FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8ACBF3BC-3F88-4920-A9A5-203ADE8030F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ACBF3BC-3F88-4920-A9A5-203ADE8030F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ACBF3BC-3F88-4920-A9A5-203ADE8030F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3CD1C9-7BB2-4E64-9D12-F9D2C1A981FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3CD1C9-7BB2-4E64-9D12-F9D2C1A981FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3CD1C9-7BB2-4E64-9D12-F9D2C1A981FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3CD1C9-7BB2-4E64-9D12-F9D2C1A981FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
