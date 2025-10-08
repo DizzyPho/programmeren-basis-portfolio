@@ -19,7 +19,7 @@ namespace D09toonscore
             }
             else {
                 int score = scores[subject];
-                Console.WriteLine($"Je score voor {whichSubj} is {score}.");
+                Console.WriteLine($"Je score voor {whichSubj} is {score}/100.");
             }
         }
     }
