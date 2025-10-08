@@ -27,6 +27,9 @@ namespace D09morse
                     Console.WriteLine("Invalid morse code.");
                     continue;
                 }
+
+                decoded += letters[morseIndex];
+                Console.WriteLine($"Word so far: {decoded}");
             }
         }
     }
