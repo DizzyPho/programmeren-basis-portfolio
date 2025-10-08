@@ -18,7 +18,10 @@ namespace D09morse
 
                 if (input == "/") {
                     break;
-                }   
+                }
+                
+                int morseIndex = Array.IndexOf(morse, input);
+
             }
         }
     }
