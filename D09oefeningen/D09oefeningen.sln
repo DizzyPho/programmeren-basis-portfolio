@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09zoekhistoriek", "D09zoek
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09censuur", "D09censuur\D09censuur.csproj", "{5AC7A9B9-D0F3-48D3-B35C-C0A4AF915EA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3x+1", "..\..\TestSolution\3x+1\3x+1.csproj", "{0B06065E-4198-43CE-95AE-EF2F11693042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09namenalfabetisch", "D09namenalfabetisch\D09namenalfabetisch.csproj", "{9942F3CA-F5E2-45EE-BA21-F03FD873A8C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{5AC7A9B9-D0F3-48D3-B35C-C0A4AF915EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AC7A9B9-D0F3-48D3-B35C-C0A4AF915EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AC7A9B9-D0F3-48D3-B35C-C0A4AF915EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B06065E-4198-43CE-95AE-EF2F11693042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B06065E-4198-43CE-95AE-EF2F11693042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B06065E-4198-43CE-95AE-EF2F11693042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B06065E-4198-43CE-95AE-EF2F11693042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9942F3CA-F5E2-45EE-BA21-F03FD873A8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9942F3CA-F5E2-45EE-BA21-F03FD873A8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9942F3CA-F5E2-45EE-BA21-F03FD873A8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9942F3CA-F5E2-45EE-BA21-F03FD873A8C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
