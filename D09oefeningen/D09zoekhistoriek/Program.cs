@@ -9,8 +9,11 @@ namespace D09zoekhistoriek
             string[] zoekhistoriek = { "Charlie Sheen", "Hot shots", "Winning", "Electrabel storing", "Geen elektriciteit" };
             while (true) {
                 string nextEntry = UserInput.StringInput("Give a next search term: ");
+                zoekhistoriek = ShiftArray(zoekhistoriek, nextEntry);
 
-            }
+                Console.WriteLine(String.Join(":", zoekhistoriek));
+
+            }   
         }
 
         static string[] ShiftArray(string[] array, string newItem) {
