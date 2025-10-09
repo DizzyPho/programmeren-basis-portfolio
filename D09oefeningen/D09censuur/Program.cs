@@ -1,11 +1,14 @@
-﻿namespace D09censuur
+﻿using Helper.UserInputHelper;
+
+namespace D09censuur
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            
 
+            string words = UserInput.StringInput("Tell me something: ").ToLower().Trim();
+            
             
         }
 
@@ -18,7 +21,6 @@
             else {
                 return false;
             }
-
         }
     }
 }
