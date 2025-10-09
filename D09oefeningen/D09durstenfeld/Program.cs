@@ -6,7 +6,12 @@ namespace D09durstenfeld
     {
         static void Main(string[] args)
         {
+            string[] cards = SetKaarten();
+            string[] shuffled = DurstenShuffle(cards);
 
+            foreach (string card in shuffled) {
+                Console.WriteLine(card);
+            }
         }
 
         static string[] SetKaarten()
@@ -45,7 +50,7 @@ namespace D09durstenfeld
 
             for (int index = len - 1; index >= 0; index--) {
                 int randomNum = rand.Next(0, index + 1);
-                array = SwapTwo(array, 0, randomNum);
+                array = SwapTwo(array, index, randomNum);
             }
 
             return array;
