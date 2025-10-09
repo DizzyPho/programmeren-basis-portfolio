@@ -7,18 +7,19 @@ namespace D09censuur
         static void Main(string[] args)
         {
 
-            string words = UserInput.StringInput("Tell me something: ").ToLower().Trim();
-            
-            
-        }
+  
 
-        static bool HasSwears(string s) {
-            string[] swearWords = ["shit", "fuck", "javascript", "astarion", "waegenaar"];
-            if (swearWords.Contains(s))
+            static bool HasSwears(string s)
             {
-                return true;
-            }
-            else {
+                string[] swearWords = ["shit", "fuck", "javascript", "astarion", "waegenaar"];
+                string[] words = s.Split(" ");
+
+                foreach (string currentWord in words) {
+                    if (swearWords.Contains(currentWord)) {
+                        return true;
+                    }
+                }
+
                 return false;
             }
         }
