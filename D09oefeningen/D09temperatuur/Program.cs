@@ -19,6 +19,15 @@
                 min = Math.Min(min, temp);
 
             }
+
+            if (max == double.MinValue)
+            {
+                Console.WriteLine("No measurements found.");
+            }
+            else {
+                Console.WriteLine($"The max temperature is {max}.");
+                Console.WriteLine($"The min temperature is {min}.");
+            }
         }
     }
 }
