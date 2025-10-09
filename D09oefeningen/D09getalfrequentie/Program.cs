@@ -15,6 +15,11 @@ namespace D09getalfrequentie
                 }
 
                 int number = int.Parse(input);
+
+                if (number > 10 || number < 0) {
+                    Console.WriteLine("Not in [0,10].");
+                    continue;
+                }
             }
         }
     }
