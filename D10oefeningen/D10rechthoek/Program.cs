@@ -1,10 +1,15 @@
-﻿namespace D10rechthoek
+﻿using Helper.UserInputHelper;
+
+namespace D10rechthoek
 {
     internal class Program
     {
         static void Main(string[] args)
+
         {
-            Quad(9,3);
+            int height = GetValidDimension("Enter the height: ");
+            int width = GetValidDimension("Enter the width: ");
+            Quad(height,width);
         }
 
         static string Line(int width) {
@@ -18,6 +23,23 @@
             {
                 Console.WriteLine(line);
             }
+        }
+
+        static int GetValidDimension(string message) {
+
+            int dim = -1;
+            
+            while (dim <= 0)
+            {
+                try
+                {
+                    dim = UserInput.IntegerInput(message);
+                }
+                catch { 
+                    continue;
+                }
+            }
+            return dim;
         }
     }
 }
