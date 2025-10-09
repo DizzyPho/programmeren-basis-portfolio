@@ -26,6 +26,13 @@ namespace D09getalfrequentie
                 zeroToTen[number] += 1;
                 
             }
+
+            for (int index = 0; index < 11; index++) {
+                int amount = zeroToTen[index];
+                if (amount != 0) {
+                    Console.WriteLine($"{index} kwam {amount} keer voor.");
+                }
+            }
         }
     }
 }
