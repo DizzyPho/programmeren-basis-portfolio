@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Vierkant(7);
         }
 
         static void Vierkant(int lengte)
