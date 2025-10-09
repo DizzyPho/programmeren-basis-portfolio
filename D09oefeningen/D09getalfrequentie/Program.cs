@@ -6,6 +6,8 @@ namespace D09getalfrequentie
     {
         static void Main(string[] args)
         {
+            int[] zeroToTen = new int[11];
+
             while (true)
             {
                 string input = UserInput.StringInput("Geef een getal in [0,10]: ").ToLower().Trim();
@@ -20,6 +22,9 @@ namespace D09getalfrequentie
                     Console.WriteLine("Not in [0,10].");
                     continue;
                 }
+
+                zeroToTen[number] += 1;
+                
             }
         }
     }
