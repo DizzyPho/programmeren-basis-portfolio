@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09temperatuur", "D09temper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09speelkaarten", "D09speelkaarten\D09speelkaarten.csproj", "{91758B9E-2B7B-4342-81B1-5563E7585E00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09aantalkarakters", "D09aantalkarakters\D09aantalkarakters.csproj", "{ADE6D17D-3B7B-4C85-B18F-228269BABC55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{91758B9E-2B7B-4342-81B1-5563E7585E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91758B9E-2B7B-4342-81B1-5563E7585E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91758B9E-2B7B-4342-81B1-5563E7585E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE6D17D-3B7B-4C85-B18F-228269BABC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE6D17D-3B7B-4C85-B18F-228269BABC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE6D17D-3B7B-4C85-B18F-228269BABC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE6D17D-3B7B-4C85-B18F-228269BABC55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
