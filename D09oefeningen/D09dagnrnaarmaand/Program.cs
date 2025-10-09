@@ -16,6 +16,12 @@ namespace D09dagnrnaarmaand
 
                 totalDays += aantalDagen[index];
 
+                if (dayNumber < 1 || dayNumber > 365)
+                {
+                    Console.WriteLine("De maand is onbepaald.");
+                    break;
+                }
+
                 if (dayNumber <= totalDays) {
                     string month = maandNamen[index];
                     Console.WriteLine($"De maand is {month}.");
