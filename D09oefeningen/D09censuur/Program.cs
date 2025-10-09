@@ -6,7 +6,7 @@ namespace D09censuur
     {
         static void Main(string[] args)
         {
-            string words = UserInput.StringInput("Tell me something: ").ToLower().Trim();
+            string words = UserInput.StringInput("Tell me something: ").Trim();
             if (HasSwears(words))
             {
                 Console.WriteLine("Niet acceptabel!!!");
@@ -21,7 +21,7 @@ namespace D09censuur
             static bool HasSwears(string s)
             {
                 string[] swearWords = ["shit", "fuck", "javascript", "astarion", "waegenaar"];
-                string[] words = s.Split(" ");
+                string[] words = s.ToLower().Split(" ");
 
                 foreach (string currentWord in words) {
                     if (swearWords.Contains(currentWord)) {
@@ -34,12 +34,12 @@ namespace D09censuur
 
             static string Censor(string s) {
 
-                string[] swearWords = ["shit", "fuck", "javascript", "astarion", "waegenaar"];
+                string[] swearWords = ["shit", "fuck", "javascript", "astarion", "waegenaar", "kanker"];
                 string[] words = s.Split(" ");
 
                 for (int index = 0; index < words.Length; index++) { 
                     string currentWord = words[index];
-                    if (swearWords.Contains(currentWord))
+                    if (swearWords.Contains(currentWord.ToLower()))
                     {
                         string censored = currentWord[0] + new String('*', currentWord.Length - 2) + currentWord[currentWord.Length - 1];
                         words[index] = censored;
