@@ -6,7 +6,7 @@ namespace D09durstenfeld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
         }
 
         static string[] SetKaarten()
@@ -34,6 +34,19 @@ namespace D09durstenfeld
             string temp = array[index1];
             array[index1] = array[index2];
             array[index2] = temp;
+
+            return array;
+        }
+
+        static string[] DurstenShuffle(string[] array) {
+
+            int len = array.Length;
+            Random rand = new Random();
+
+            for (int index = len - 1; index >= 0; index--) {
+                int randomNum = rand.Next(0, index + 1);
+                array = SwapTwo(array, 0, randomNum);
+            }
 
             return array;
         }
