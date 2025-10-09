@@ -10,6 +10,7 @@ namespace D09censuur
             if (HasSwears(words))
             {
                 Console.WriteLine("Niet acceptabel!!!");
+                Console.WriteLine(Censor(words));
             }
             else
             {
@@ -29,6 +30,21 @@ namespace D09censuur
                 }
 
                 return false;
+            }
+
+            static string Censor(string s) {
+
+                string[] swearWords = ["shit", "fuck", "javascript", "astarion", "waegenaar"];
+                string[] words = s.Split(" ");
+
+                for (int index = 0; index < words.Length; index++) { 
+                    string currentWord = words[index];
+                    if (swearWords.Contains(currentWord))
+                    {
+                        words[index] = new String('*', currentWord.Length);
+                    }
+                }
+                return String.Join(" ", words);
             }
         }
     }
