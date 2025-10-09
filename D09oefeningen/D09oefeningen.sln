@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09speelkaarten", "D09speel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09aantalkarakters", "D09aantalkarakters\D09aantalkarakters.csproj", "{ADE6D17D-3B7B-4C85-B18F-228269BABC55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09getalfrequentie", "D09getalfrequentie\D09getalfrequentie.csproj", "{547296AC-2266-4A3C-990E-F306DB8A8514}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{ADE6D17D-3B7B-4C85-B18F-228269BABC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE6D17D-3B7B-4C85-B18F-228269BABC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE6D17D-3B7B-4C85-B18F-228269BABC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547296AC-2266-4A3C-990E-F306DB8A8514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547296AC-2266-4A3C-990E-F306DB8A8514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547296AC-2266-4A3C-990E-F306DB8A8514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547296AC-2266-4A3C-990E-F306DB8A8514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
