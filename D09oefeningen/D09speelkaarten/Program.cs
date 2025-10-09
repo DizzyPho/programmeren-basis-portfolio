@@ -20,6 +20,9 @@
                 }
             }
 
+            foreach (string card in cards) {
+                Console.WriteLine(card);
+            }
         }
     }
 }
