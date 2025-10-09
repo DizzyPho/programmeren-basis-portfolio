@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Vierkant();
+        }
+
+        static void Vierkant() {
+            string line = new string('*', 5);
+            for (int i = 0; i < 5; i++) {
+                Console.WriteLine(line);
+            }
         }
     }
 }
