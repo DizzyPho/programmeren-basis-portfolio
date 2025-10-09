@@ -9,7 +9,7 @@
             double max = double.MinValue;
             double min = double.MaxValue;
 
-            foreach (int temp in meetwaarden) {
+            foreach (double temp in meetwaarden) {
 
                 if (temp == -9999.0) {
                     continue;
