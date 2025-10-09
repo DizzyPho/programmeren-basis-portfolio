@@ -1,4 +1,6 @@
-﻿namespace D09durstenfeld
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace D09durstenfeld
 {
     internal class Program
     {
@@ -7,7 +9,8 @@
             Console.WriteLine("Hello, World!");
         }
 
-        static string[] SetKaarten() {
+        static string[] SetKaarten()
+        {
             string[] kleuren = { "harten", "klaver", "schoppen", "ruiten" };
             string[] waarden = { "twee", "drie", "vier", "vijf", "zes", "zeven", "acht", "negen", "tien", "landbouwer", "dame", "koning", "aas" };
 
@@ -26,6 +29,14 @@
 
             return cards;
         }
+
+        static string[] SwapTwo(string[] array, int index1, int index2) {
+            string temp = array[index1];
+            array[index1] = array[index2];
+            array[index2] = temp;
+
+            return array;
+        }
     }
-    }
+
 }
