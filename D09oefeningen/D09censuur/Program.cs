@@ -41,7 +41,8 @@ namespace D09censuur
                     string currentWord = words[index];
                     if (swearWords.Contains(currentWord))
                     {
-                        words[index] = new String('*', currentWord.Length);
+                        string censored = currentWord[0] + new String('*', currentWord.Length - 2) + currentWord[currentWord.Length - 1];
+                        words[index] = censored;
                     }
                 }
                 return String.Join(" ", words);
