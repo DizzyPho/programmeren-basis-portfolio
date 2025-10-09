@@ -6,5 +6,11 @@
         {
             Console.WriteLine("Hello, World!");
         }
+
+        static string Line(int width) {
+            return new string('*', width);
+        }
+
+        
     }
 }
