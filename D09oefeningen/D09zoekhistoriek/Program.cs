@@ -6,8 +6,10 @@ namespace D09zoekhistoriek
     {
         static void Main(string[] args)
         {
+            string[] zoekhistoriek = { "Charlie Sheen", "Hot shots", "Winning", "Electrabel storing", "Geen elektriciteit" };
             while (true) {
                 string nextEntry = UserInput.StringInput("Give a next search term: ");
+
             }
         }
 
