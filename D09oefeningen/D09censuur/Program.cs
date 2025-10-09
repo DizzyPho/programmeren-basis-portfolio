@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string[] swearWords = ["shit", "fuck", "javascript", "astarion", "waegenaar"];
+
+
         }
     }
 }
