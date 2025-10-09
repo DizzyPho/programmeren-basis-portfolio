@@ -15,7 +15,11 @@ namespace D09namenalfabetisch
                 names.Add(name);
             } while (name != string.Empty);
 
-            Console.WriteLine(names);
+            names.Sort();
+
+            foreach (string currentName in names) {
+                Console.WriteLine(currentName);
+            }
         }
     }
 }
