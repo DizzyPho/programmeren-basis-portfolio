@@ -8,21 +8,28 @@ namespace D09vijfkleinste
         {
             List<int> numbers = new List<int>();
 
-            while (numbers.Count < 10) {
+            while (numbers.Count < 10)
+            {
                 try
                 {
                     int newNumber = UserInput.IntegerInput("Enter a number");
                     numbers.Add(newNumber);
                 }
-                catch {
+                catch
+                {
                     Console.WriteLine("Ongeldig getal.");
                     continue;
-                } 
+                }
             }
 
-
-
- 
+            numbers.Sort();
+            Console.WriteLine("De kleinste nummers zijn: ");
+            for (int index = 0; index < 5; index++)
+            {
+                Console.WriteLine(numbers[index]);
+            }
         }
+
+
     }
 }
