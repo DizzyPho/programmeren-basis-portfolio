@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D10toonsomtussen", "D10toon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D10toonarray", "D10toonarray\D10toonarray.csproj", "{B60DE7E4-517A-40E5-A46C-21BA63E8BAA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D10faculteit", "D10faculteit\D10faculteit.csproj", "{61877C5E-487F-4881-B2BD-6F912B26ED6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B60DE7E4-517A-40E5-A46C-21BA63E8BAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B60DE7E4-517A-40E5-A46C-21BA63E8BAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B60DE7E4-517A-40E5-A46C-21BA63E8BAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61877C5E-487F-4881-B2BD-6F912B26ED6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61877C5E-487F-4881-B2BD-6F912B26ED6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61877C5E-487F-4881-B2BD-6F912B26ED6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61877C5E-487F-4881-B2BD-6F912B26ED6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
