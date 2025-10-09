@@ -1,10 +1,17 @@
-﻿namespace D09getalfrequentie
+﻿using Helper.UserInputHelper;
+
+namespace D09getalfrequentie
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            while (true)
+            {
+                string input = UserInput.StringInput("Geef een getal in [0,10]: ");
+
+
+            }
         }
     }
 }
