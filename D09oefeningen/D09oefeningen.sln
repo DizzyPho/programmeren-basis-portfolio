@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09aantalkarakters", "D09aa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09getalfrequentie", "D09getalfrequentie\D09getalfrequentie.csproj", "{547296AC-2266-4A3C-990E-F306DB8A8514}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D09durstenfeld", "D09durstenfeld\D09durstenfeld.csproj", "{F4768059-044E-4870-97F9-686B15955B36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{547296AC-2266-4A3C-990E-F306DB8A8514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{547296AC-2266-4A3C-990E-F306DB8A8514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{547296AC-2266-4A3C-990E-F306DB8A8514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4768059-044E-4870-97F9-686B15955B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4768059-044E-4870-97F9-686B15955B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4768059-044E-4870-97F9-686B15955B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4768059-044E-4870-97F9-686B15955B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
