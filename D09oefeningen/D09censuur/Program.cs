@@ -6,8 +6,16 @@ namespace D09censuur
     {
         static void Main(string[] args)
         {
+            string words = UserInput.StringInput("Tell me something: ").ToLower().Trim();
+            if (HasSwears(words))
+            {
+                Console.WriteLine("Niet acceptabel!!!");
+            }
+            else
+            {
+                Console.WriteLine("Acceptabele text.");
+            }
 
-  
 
             static bool HasSwears(string s)
             {
