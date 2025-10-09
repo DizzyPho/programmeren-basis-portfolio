@@ -1,0 +1,35 @@
+DPA1.menu
+1) Het programma bestaat uit een do while loop die doorgaat tot de ingevoerde keuze 5 is.
+2) Die functionaliteit staat in een if statement die als conditie 'keuze == 4' heeft
+
+DPA1.details
+1) lijn 187
+2) 6 parallele arrays
+3) Om te weten hoeveel personen er zijn, dus hoeveel items er in elk array zijn die niet null/0/... zijn 
+4) wordt er in gezet op lijn 23-36
+5) met een ternary operator die een andere value returnt anfhankelijk van waarde van isVrouw
+
+DPA1.toevoegen
+1) het stuk code wordt geloopt tot de input niet gelijk is aan een lege string
+2) omdat er maar twee geldige waarden zijn, en enkel die twee worden gecheckt
+3) de vergelijking antwoord == "v" returnt een boolean
+4) de gegevens zijn al in de arrays gezet
+5) aantalPersonen is niet veranderd, dus als de user daarna een nieuwe persoon ingeven wordt er gewoon over de oude geschreven
+
+DPA1.aanpassen
+1) als de input leeg is wordt de originele waarde niet aangepast
+2) als de input leeg is blijft aantal = -1, wat als gevolg heeft dat de originele waarde niet aangepast wordt. Indien er negatieve waarden worden gegeven loopt de code gewoon
+3) een bool 'isVeranderd' toevoegen die op false staat en enkel op true word gezet als de input een int en geen lege string is
+4) als de input van voornaam een lege string is schrijft hij ze niet over
+5) als locale variabele aantal = -1 is, wat enkel kan als er een lege string werd geenterd, verandert hij de originele waarde niet
+
+DPA1.verwijderen
+1) aantalpersonen wordt met 1 verminderd, en de inhoud van de arrays wordt met 1 teruggeschoven
+2) inhoud opschuiven
+3) aangezien aantalPersonen met 1 vermindert, schrijft hij volgende keer over de overbodige data heen
+
+DPA1.varia
+1) door de 2 default personen te verwijderen en dan nog iemand te proberen verwijderen
+2) door meer dan 20 personen toe te voegen (incl. 2 default personen) zonder er 1 te verwijderen
+4) Ja, maar enkel als je bij het verwijderen en bij het niet-bevestigen van een toevoeging alle arrays op die index op de default waarde zet. Dan om toe te voegen/etc/ kijk je naar de laatste index die GEEN defaultwaarde is bij voornaam
+5) Neen. Anders ga je over nog bestaande personen heen schrijven OF berijk je al snel een maximum en kan je dat niet ongedaan maken
