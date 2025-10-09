@@ -8,9 +8,9 @@ namespace D09getalfrequentie
         {
             while (true)
             {
-                string input = UserInput.StringInput("Geef een getal in [0,10]: ");
+                string input = UserInput.StringInput("Geef een getal in [0,10]: ").ToLower().Trim();
 
-
+                
             }
         }
     }
