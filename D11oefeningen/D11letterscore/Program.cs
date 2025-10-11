@@ -1,10 +1,14 @@
-﻿namespace D11letterscore
+﻿using Helper.UserInputHelper;
+
+namespace D11letterscore
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int percent = UserInput.IntegerInput("Give your score as a percentage: ");
+            char letterCode = GetLetterCode(percent);
+            Console.WriteLine($"In America, that would be: {letterCode}");
         }
 
         static char GetLetterCode(int percentage) {
