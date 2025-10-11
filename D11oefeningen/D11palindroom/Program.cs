@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(ReverseText("Hello world"));
+            Console.WriteLine(IsPalindrome("parterretrap"));
 
         }
 
@@ -17,6 +17,11 @@
                 reversed += text[i];
             }
             return reversed;
+        }
+
+        static bool IsPalindrome(string text)
+        {
+            return text == ReverseText(text);
         }
     }
 }
