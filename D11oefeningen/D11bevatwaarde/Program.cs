@@ -29,6 +29,9 @@ namespace D11
                 validNumbersCounter++;
 
             }
+            foreach (int num in uniqueNumbers) { 
+                Console.Write(num +  ", ");
+            }
         }
 
         static bool Contains(int value, int[] numbers) {
