@@ -21,7 +21,10 @@ namespace D11
                     continue;
                 }
 
-
+                if (Contains(userNumber, uniqueNumbers))
+                {
+                    continue;
+                }
 
                 uniqueNumbers[validNumbers] = userNumber;
                 validNumbers++;
