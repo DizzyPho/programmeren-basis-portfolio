@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D11letterscore", "D11letter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D11kader", "D11kader\D11kader.csproj", "{B1DF0AF5-5965-420D-9588-A36661C4033E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D11charcount", "D11charcount\D11charcount.csproj", "{2BBA2B43-C57D-4B63-90B5-38D89C94451D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B1DF0AF5-5965-420D-9588-A36661C4033E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1DF0AF5-5965-420D-9588-A36661C4033E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1DF0AF5-5965-420D-9588-A36661C4033E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBA2B43-C57D-4B63-90B5-38D89C94451D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBA2B43-C57D-4B63-90B5-38D89C94451D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBA2B43-C57D-4B63-90B5-38D89C94451D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBA2B43-C57D-4B63-90B5-38D89C94451D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
