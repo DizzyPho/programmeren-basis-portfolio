@@ -6,6 +6,7 @@
         {
             int[] nrs = { -4, 7, 9, 34, 2, 56, 34, 78 };
             Console.WriteLine(GetMin(nrs));
+            Console.WriteLine(GetMax(nrs));
         }
 
         static int GetMin(int[] numbers) {
@@ -20,6 +21,22 @@
 
             return min; 
 
-        } 
+        }
+
+        static int GetMax(int[] numbers)
+        {
+
+            int max = int.MinValue;
+
+            foreach (int currentNumber in numbers)
+            {
+
+                max = Math.Max(max, currentNumber);
+
+            }
+
+            return max;
+
+        }
     }
 }
