@@ -6,5 +6,11 @@
         {
 
         }
+
+        static bool Contains(int value, int[] numbers) {
+            return (Array.IndexOf(numbers, value) != -1);
+        }
+
+
     }
 }
