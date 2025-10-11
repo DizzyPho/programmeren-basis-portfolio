@@ -6,16 +6,15 @@ namespace D11
     {
         static void Main(string[] args)
         {
-            int validNumbers = 0;
+            int validNumbersCounter = 0;
             int[] uniqueNumbers = new int[5];
 
-            while (validNumbers < 5) {
+            while (validNumbersCounter < 5) {
 
-                int currentNumber = validNumbers + 1;
                 int userNumber;
                 try
                 {
-                    userNumber = UserInput.IntegerInput($"Give number #{currentNumber}: ");
+                    userNumber = UserInput.IntegerInput($"Give number #{validNumbersCounter + 1}: ");
                 }
                 catch {
                     continue;
@@ -26,8 +25,8 @@ namespace D11
                     continue;
                 }
 
-                uniqueNumbers[validNumbers] = userNumber;
-                validNumbers++;
+                uniqueNumbers[validNumbersCounter] = userNumber;
+                validNumbersCounter++;
 
             }
         }
