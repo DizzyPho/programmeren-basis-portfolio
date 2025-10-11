@@ -12,7 +12,13 @@ namespace D11
             while (validNumbers < 5) {
 
                 int currentNumber = validNumbers + 1;
-                int userNumber = UserInput.IntegerInput($"Give number #{currentNumber}: ");
+                try
+                {
+                    int userNumber = UserInput.IntegerInput($"Give number #{currentNumber}: ");
+                }
+                catch {
+                    continue;
+                }
 
                 validNumbers++;
 
